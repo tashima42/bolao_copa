@@ -7,7 +7,7 @@ CFLAGS   = -O3 -fPIC -Wall -Wextra
 
 ANSWERS_CSV ?= $(PWD)/answers.csv
 
-LIBPAPAGO_URL = https://github.com/briandowns/libpapago
+LIBPAPAGO_URL = https://github.com/tashima42/libpapago
 LIBPAPAGO_DIR = vendor/libpapago
 LIBPAPAGO_SRC = $(LIBPAPAGO_DIR)/papago.c
 
